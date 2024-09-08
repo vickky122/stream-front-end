@@ -69,7 +69,7 @@ function VideoUpload() {
       formData.append("file", selectedFile);
 
       let response = await axios.post(
-        `http://localhost:8080/api/v1/videos`,
+        `http://localhost:8090/api/v1/videos`,
         formData,
         {
           headers: {
